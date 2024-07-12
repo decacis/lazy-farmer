@@ -1,0 +1,2080 @@
+[gd_scene load_steps=126 format=3 uid="uid://dv8lxsgfme0f"]
+
+[ext_resource type="ArrayMesh" uid="uid://i8d5rsnu0a8l" path="res://models/main/farm_Cube_199.res" id="1_32ksr"]
+[ext_resource type="Script" path="res://scenes/main_game.gd" id="1_b5m6m"]
+[ext_resource type="ArrayMesh" uid="uid://cj57cd3lrowlx" path="res://models/main/farm_Cube_044.res" id="2_xsclw"]
+[ext_resource type="ArrayMesh" uid="uid://dgcfyskuunhax" path="res://models/main/farm_Cube_055.res" id="3_dpaxg"]
+[ext_resource type="ArrayMesh" uid="uid://uqlagqfuhpx3" path="res://models/main/farm_Cube_056.res" id="4_qioe0"]
+[ext_resource type="ArrayMesh" uid="uid://3b8u3au53j2c" path="res://models/main/farm_Cube_081.res" id="5_l4t86"]
+[ext_resource type="ArrayMesh" uid="uid://c3s5hp341w7df" path="res://models/main/farm_Cube_095.res" id="6_a6cn3"]
+[ext_resource type="ArrayMesh" uid="uid://bgkjc0ghb0cp5" path="res://models/main/farm_Cube_097.res" id="7_i8wbg"]
+[ext_resource type="ArrayMesh" uid="uid://duujsdk1dcbcq" path="res://models/main/farm_Cube_051.res" id="8_jdp04"]
+[ext_resource type="ArrayMesh" uid="uid://ems7mvkjkls5" path="res://models/main/farm_Cube_053.res" id="9_vjba0"]
+[ext_resource type="ArrayMesh" uid="uid://4myn4uihpncj" path="res://models/main/farm_Cube_054.res" id="10_m3opo"]
+[ext_resource type="ArrayMesh" uid="uid://b11sqt6631i6w" path="res://models/main/farm_Cube_022.res" id="11_ta6i1"]
+[ext_resource type="ArrayMesh" uid="uid://rf5xgo3ciq1r" path="res://models/main/farm_Cylinder_032.res" id="12_lnnb8"]
+[ext_resource type="ArrayMesh" uid="uid://c8desjdw0g8fp" path="res://models/main/farm_Cube_116.res" id="13_dfchv"]
+[ext_resource type="ArrayMesh" uid="uid://i1awl15it762" path="res://models/main/farm_Cube_001.res" id="14_i25ke"]
+[ext_resource type="ArrayMesh" uid="uid://c0d0hvl7ilnhk" path="res://models/main/farm_Cube_071.res" id="15_80yru"]
+[ext_resource type="ArrayMesh" uid="uid://pgc3m6xrohlc" path="res://models/main/farm_Circle.res" id="16_pax5o"]
+[ext_resource type="ArrayMesh" uid="uid://cepbwqvp0cxqv" path="res://models/main/farm_Circle_002.res" id="17_8fiww"]
+[ext_resource type="ArrayMesh" uid="uid://llltcb0xmc4o" path="res://models/main/farm_Cylinder_061.res" id="18_tra64"]
+[ext_resource type="ArrayMesh" uid="uid://qbxjl1h7i31g" path="res://models/main/farm_Cylinder_036.res" id="19_55npm"]
+[ext_resource type="ArrayMesh" uid="uid://6dg1a5g6q0v6" path="res://models/main/farm_Cube_068.res" id="20_wiifd"]
+[ext_resource type="ArrayMesh" uid="uid://dlw07tqrbeqk7" path="res://models/main/farm_Cube_070.res" id="21_kcctv"]
+[ext_resource type="ArrayMesh" uid="uid://eui1tgml3xnl" path="res://models/main/farm_Cube_074.res" id="22_k0fg6"]
+[ext_resource type="ArrayMesh" uid="uid://cgog711ompnca" path="res://models/main/farm_Cube_076.res" id="23_8uepi"]
+[ext_resource type="ArrayMesh" uid="uid://b5e21vai7jte5" path="res://models/main/farm_Cylinder_079.res" id="24_4erkd"]
+[ext_resource type="ArrayMesh" uid="uid://c38f5l0offo6c" path="res://models/main/farm_Circle_006.res" id="25_qej6l"]
+[ext_resource type="ArrayMesh" uid="uid://c2i4ihfe5rwn1" path="res://models/main/farm_Cube_033.res" id="26_nna6t"]
+[ext_resource type="ArrayMesh" uid="uid://jspwsnsbedpg" path="res://models/main/farm_Cylinder_048.res" id="27_kp3gj"]
+[ext_resource type="ArrayMesh" uid="uid://tiihpnb6dd6w" path="res://models/main/farm_Cylinder_049.res" id="28_15s0s"]
+[ext_resource type="ArrayMesh" uid="uid://bjnj4x05cxnhy" path="res://models/main/farm_Cylinder_050.res" id="29_k1dsw"]
+[ext_resource type="ArrayMesh" uid="uid://bv4ieesh6tscy" path="res://models/main/farm_Cylinder_051.res" id="30_oslni"]
+[ext_resource type="ArrayMesh" uid="uid://dpslsudjlkdl0" path="res://models/main/farm_Plane_029.res" id="32_aeqj0"]
+[ext_resource type="ArrayMesh" uid="uid://djqhh1ypve12k" path="res://models/main/farm_Plane_031.res" id="33_pyti4"]
+[ext_resource type="ArrayMesh" uid="uid://6ca54ob46utg" path="res://models/main/farm_Circle_001.res" id="34_v16rt"]
+[ext_resource type="ArrayMesh" uid="uid://drmxlk5os7h1q" path="res://models/main/farm_Cylinder_044.res" id="36_draap"]
+[ext_resource type="ArrayMesh" uid="uid://deedwsajmyuxq" path="res://models/main/farm_Cube_002.res" id="37_ereku"]
+[ext_resource type="ArrayMesh" uid="uid://p7exhowu2ps4" path="res://models/main/farm_Cube_004.res" id="39_aco3f"]
+[ext_resource type="ArrayMesh" uid="uid://dgymq8kjopkd4" path="res://models/main/farm_Cube_013.res" id="41_ebacf"]
+[ext_resource type="ArrayMesh" uid="uid://q0fopfup5diw" path="res://models/main/farm_Cube_014.res" id="42_yvhj2"]
+[ext_resource type="ArrayMesh" uid="uid://cpv8qi5m2ddl5" path="res://models/main/farm_Cube_018.res" id="43_s3nje"]
+[ext_resource type="ArrayMesh" uid="uid://deto3w2o8h5hw" path="res://models/main/farm_Cube_019.res" id="44_bg5dp"]
+[ext_resource type="ArrayMesh" uid="uid://cwebvkbkox7yt" path="res://models/main/farm_Cube_020.res" id="45_dnxya"]
+[ext_resource type="ArrayMesh" uid="uid://bwdw3l644kncj" path="res://models/main/farm_Cube_024.res" id="46_vmffj"]
+[ext_resource type="ArrayMesh" uid="uid://dxgsyve08b2rj" path="res://models/main/farm_Cube_027.res" id="47_1q6gv"]
+[ext_resource type="ArrayMesh" uid="uid://cf7pkloopx31a" path="res://models/main/farm_Plane.res" id="48_706q1"]
+[ext_resource type="ArrayMesh" uid="uid://brp3rw82vcrau" path="res://models/main/farm_Cube_028.res" id="49_y6yty"]
+[ext_resource type="ArrayMesh" uid="uid://cgw7ou1jfkeyh" path="res://models/main/farm_Cube_029.res" id="50_jo0na"]
+[ext_resource type="ArrayMesh" uid="uid://yimqr27lyh3l" path="res://models/main/farm_Cube_035.res" id="51_eitas"]
+[ext_resource type="ArrayMesh" uid="uid://kng0im6mt74" path="res://models/main/farm_Cube_038.res" id="52_xeyil"]
+[ext_resource type="ArrayMesh" uid="uid://ncjcd2ug2sxf" path="res://models/main/farm_Cube_039.res" id="53_am3ag"]
+[ext_resource type="ArrayMesh" uid="uid://dhqhkc1qiuiub" path="res://models/main/farm_Cube_040.res" id="54_512va"]
+[ext_resource type="ArrayMesh" uid="uid://bi44fm4ts4csx" path="res://models/main/farm_Plane_005.res" id="55_61laa"]
+[ext_resource type="ArrayMesh" uid="uid://bfqa1tvglnj67" path="res://models/main/farm_Plane_007.res" id="56_ntnm6"]
+[ext_resource type="ArrayMesh" uid="uid://bvd47k2sutkg1" path="res://models/main/farm_Plane_008.res" id="57_xfp0y"]
+[ext_resource type="ArrayMesh" uid="uid://cjy83n0oo5lcc" path="res://models/main/farm_Plane_009.res" id="58_7jiu2"]
+[ext_resource type="ArrayMesh" uid="uid://cda6hm3kyfm4v" path="res://models/main/farm_Plane_010.res" id="59_vgsxc"]
+[ext_resource type="ArrayMesh" uid="uid://fq1pves0ptk8" path="res://models/main/farm_Plane_011.res" id="60_gmm1a"]
+[ext_resource type="AudioStream" uid="uid://ceekiwxon6m4u" path="res://assets/sfx/new_plot_notification_sfx.wav" id="60_siuie"]
+[ext_resource type="ArrayMesh" uid="uid://dtokvkhnaicdj" path="res://models/main/farm_Cube_064.res" id="61_wd48b"]
+[ext_resource type="ArrayMesh" uid="uid://bkxgl3kj23qhc" path="res://models/main/farm_Cube_065.res" id="62_agcd1"]
+[ext_resource type="Shader" path="res://scenes/materials/status_screen_shader.gdshader" id="62_ioyq0"]
+[ext_resource type="ArrayMesh" uid="uid://dne8i4lgk6emu" path="res://models/main/farm_Cube_066.res" id="63_rp0h8"]
+[ext_resource type="ArrayMesh" uid="uid://c1b84y3iphc1g" path="res://models/main/farm_Cube_077.res" id="64_q6lsg"]
+[ext_resource type="ArrayMesh" uid="uid://caiq1gnyevpuk" path="res://models/main/farm_Plane_016.res" id="65_5bn2i"]
+[ext_resource type="ArrayMesh" uid="uid://b3n05mp2ahre5" path="res://models/main/farm_Plane_017.res" id="66_estrj"]
+[ext_resource type="ArrayMesh" uid="uid://cy8fkqs277msx" path="res://models/main/farm_Plane_018.res" id="67_fcpsr"]
+[ext_resource type="ArrayMesh" uid="uid://bn040l3ukt0mc" path="res://models/main/farm_Plane_019.res" id="68_psktw"]
+[ext_resource type="ArrayMesh" uid="uid://bx7f0lmmrcqty" path="res://models/main/farm_Plane_020.res" id="69_r1yqx"]
+[ext_resource type="ArrayMesh" uid="uid://dsav7us30ox0h" path="res://models/main/farm_Plane_021.res" id="70_ravv6"]
+[ext_resource type="ArrayMesh" uid="uid://ctejmj3cpfuoa" path="res://models/main/farm_Plane_022.res" id="71_mxrh2"]
+[ext_resource type="PackedScene" uid="uid://cw4jqxce42dg1" path="res://scenes/farmer/gobot_farmer.tscn" id="71_myn0f"]
+[ext_resource type="PackedScene" uid="uid://beu3d5fp5uxxq" path="res://scenes/main_game_status.tscn" id="72_gt5p3"]
+[ext_resource type="ArrayMesh" uid="uid://ssd58opgs1en" path="res://models/main/farm_Plane_023.res" id="72_syy7j"]
+[ext_resource type="ArrayMesh" uid="uid://cp7y3ox6kb41a" path="res://models/main/farm_Plane_024.res" id="73_3s2w6"]
+[ext_resource type="PackedScene" uid="uid://dx62t3uuheh5j" path="res://scenes/chicken/chicken.tscn" id="73_sswnj"]
+[ext_resource type="Script" path="res://scripts/farm_area.gd" id="74_2wigj"]
+[ext_resource type="PackedScene" uid="uid://kprvrh42b2qg" path="res://scenes/vr_player/VRPlayer.tscn" id="74_5bu10"]
+[ext_resource type="AudioStream" uid="uid://c3df6ayiiao76" path="res://assets/music/audio_hero_Tiny-Town_SIPML_C-0653.mp3" id="75_3i1m4"]
+[ext_resource type="AudioStream" uid="uid://ep7o4imvj7b3" path="res://assets/music/music_zapsplat_blugrass_billy.mp3" id="76_5pkro"]
+[ext_resource type="Script" path="res://scripts/chicken_area.gd" id="78_af1i5"]
+[ext_resource type="Script" path="res://scripts/outside_area_3d.gd" id="79_13rlm"]
+[ext_resource type="PackedScene" uid="uid://cjrq10edlnkn1" path="res://scenes/egg/egg.tscn" id="82_51l85"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_emfxv"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xqavh"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_emfxv")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_8tqam"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dmg7c"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_8tqam")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_camqf"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sqsmb"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_camqf")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_p3jg5"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_oumd1"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_p3jg5")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_461j0"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gogrp"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_461j0")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_hcpqy"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_c0q4h"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_hcpqy")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_adelg"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0qtf4"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_adelg")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_1nq7i"]
+viewport_path = NodePath("StatusViewport")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qvmsn"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("62_ioyq0")
+shader_parameter/albedo_texture = SubResource("ViewportTexture_1nq7i")
+
+[sub_resource type="Environment" id="Environment_hpjn6"]
+background_mode = 1
+background_color = Color(0.779, 0.9215, 0.95, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.129412, 0.145098, 0.407843, 1)
+ambient_light_energy = 0.31
+reflected_light_source = 1
+tonemap_mode = 2
+tonemap_exposure = 0.8
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ic4y4"]
+size = Vector3(65.6166, 1, 22.0042)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nfkjn"]
+size = Vector3(4.4082, 4.20313, 8.77905)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ga2yo"]
+size = Vector3(10.3848, 1.13086, 0.302979)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fa2ed"]
+size = Vector3(65.265, 1.13086, 0.302979)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_atwob"]
+size = Vector3(21.5781, 1.13086, 0.302979)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3p1kq"]
+size = Vector3(8.55084, 1.13086, 0.302979)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6vsor"]
+size = Vector3(10.5207, 1.13086, 0.302979)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s1ab7"]
+size = Vector3(8.13964, 1.13086, 0.302979)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dubpu"]
+size = Vector3(9.62255, 1.13086, 0.302979)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_itk5m"]
+size = Vector3(2.86426, 2.52515, 2.79517)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_44tfi"]
+size = Vector3(2.86426, 0.995972, 3.11536)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bq3fi"]
+size = Vector3(1.56812, 1.15442, 3.30054)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wq4o0"]
+size = Vector3(0.986328, 0.722137, 2.54181)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_sd26n"]
+radius = 0.456906
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dgux6"]
+size = Vector3(1.3584, 1, 1.48828)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yr3wg"]
+size = Vector3(3.05469, 0.632813, 6.89355)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_teiid"]
+size = Vector3(7.98462, 0.632813, 8.75415)
+
+[sub_resource type="AudioStreamPlaylist" id="AudioStreamPlaylist_cho5a"]
+stream_count = 2
+stream_0 = ExtResource("75_3i1m4")
+stream_1 = ExtResource("76_5pkro")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xkomf"]
+size = Vector3(9.25024, 0.632813, 5.94824)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x3cna"]
+size = Vector3(16.0427, 0.632813, 6.14844)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h0a45"]
+size = Vector3(8.44629, 0.632813, 3.05664)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_v3saj"]
+radius = 50.0
+
+[sub_resource type="Animation" id="Animation_3scgx"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("farm_2:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(22.671, -30, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("farm_2:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.001, 0.001, 0.001)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("farm_2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("FarmArea3:enabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("FarmArea4:enabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("farm/cerca_009:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(8.36247, 8.36247, 8.36247)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("farm/cerca_009:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("farm/cerca_009:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.05159, 1.47624, -11.3912)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Chicken4:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Chicken5:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Chicken6:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Chicken7:visible")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Chicken8:top_level")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Chicken8:enabled")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Chicken7:enabled")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Chicken6:enabled")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Chicken5:enabled")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Chicken4:enabled")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("ChickenArea2:enabled")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("farm_3:position")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-21.053, -30, 0)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("farm_3:scale")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.001, 0.001, 0.001)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("farm_3:visible")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("farm/cerca_010:scale")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(8.36247, 8.36247, 8.36247)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("farm/cerca_010:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.05644, 1.47624, 9.81633)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("FarmArea5:enabled")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("FarmArea6:enabled")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("FarmArea7:enabled")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("FarmArea8:enabled")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("ChickenArea3:enabled")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("Chicken9:visible")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/30/type = "value"
+tracks/30/imported = false
+tracks/30/enabled = true
+tracks/30/path = NodePath("Chicken9:enabled")
+tracks/30/interp = 1
+tracks/30/loop_wrap = true
+tracks/30/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/31/type = "value"
+tracks/31/imported = false
+tracks/31/enabled = true
+tracks/31/path = NodePath("Chicken10:visible")
+tracks/31/interp = 1
+tracks/31/loop_wrap = true
+tracks/31/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/32/type = "value"
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/path = NodePath("Chicken10:enabled")
+tracks/32/interp = 1
+tracks/32/loop_wrap = true
+tracks/32/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_tiosk"]
+resource_name = "enable_farm_2"
+length = 0.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("farm_2:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(22.671, -30, 0), Vector3(22.671, 0.984, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("farm_2:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.001, 0.001, 0.001), Vector3(1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("farm_2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("FarmArea3:enabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("FarmArea4:enabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("farm/cerca_009:scale")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(8.36247, 8.36247, 8.36247), Vector3(8.36247, 8.36247, 8.36247), Vector3(0.001, 0.001, 0.001)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("farm/cerca_009:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.5, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("farm/cerca_009:position")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(1.05159, 1.47624, -11.3912), Vector3(1.05159, 1.47624, -11.3912), Vector3(1.05159, 1.11508, -11.3912)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Chicken4:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Chicken5:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Chicken6:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Chicken7:visible")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Chicken8:top_level")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Chicken8:enabled")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Chicken7:enabled")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("Chicken6:enabled")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("Chicken5:enabled")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("Chicken4:enabled")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("ChickenArea2:enabled")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0.5),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/19/type = "method"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("farm_2/Farm2PlotNotificationAudioPlayer")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [0.0],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_vkwfh"]
+resource_name = "enable_farm_3"
+length = 0.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("farm_3:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-21.053, -30, 0), Vector3(-21.053, 0.984, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("farm_3:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.001, 0.001, 0.001), Vector3(1, 1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("farm_3:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("farm/cerca_010:scale")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(8.36247, 8.36247, 8.36247), Vector3(8.36247, 8.36247, 8.36247), Vector3(0.001, 0.001, 0.001)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("farm/cerca_010:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(-1.05644, 1.47624, 9.81633), Vector3(-1.05644, 1.47624, 9.81633), Vector3(-1.05644, 1.06293, 9.81633)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("FarmArea5:enabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("FarmArea6:enabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("FarmArea7:enabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("FarmArea8:enabled")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("ChickenArea3:enabled")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Chicken9:visible")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Chicken9:enabled")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Chicken10:visible")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Chicken10:enabled")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0.8),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/14/type = "method"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("farm_3/Farm3PlotNotificationAudioPlayer")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [0.0],
+"method": &"play"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rpmv1"]
+_data = {
+"RESET": SubResource("Animation_3scgx"),
+"enable_farm_2": SubResource("Animation_tiosk"),
+"enable_farm_3": SubResource("Animation_vkwfh")
+}
+
+[node name="MainGame" type="Node3D"]
+script = ExtResource("1_b5m6m")
+
+[node name="farm" type="Node3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="cerca_052" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51319e-05, -8.36122, -1.29934e-06, 0.144622, -5.70945, 1.47628, -11.3912)
+mesh = ExtResource("1_32ksr")
+skeleton = NodePath("")
+
+[node name="cerca_047" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(7.99959, 0, -0.155196, 0, 8.00109, 0, 0.155196, 0, 7.99959, -10.7149, 1.47628, 4.63468)
+mesh = ExtResource("2_xsclw")
+skeleton = NodePath("")
+
+[node name="cerca_050" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51319e-05, -8.36122, -1.29934e-06, 0.144622, -5.71217, 1.51108, -1.32457)
+mesh = ExtResource("3_dpaxg")
+skeleton = NodePath("")
+
+[node name="cerca_051" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51319e-05, -8.36122, -1.29934e-06, 0.144622, 6.83139, 1.47628, -1.10121)
+mesh = ExtResource("4_qioe0")
+skeleton = NodePath("")
+
+[node name="portao_001" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(8.32427, 0, -0.224907, 0, 8.3273, 0, 0.224907, 0, 8.32427, -0.366725, 1.47828, -6.28027)
+mesh = ExtResource("5_l4t86")
+skeleton = NodePath("")
+
+[node name="Cube_037" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.0877819, 0, 0, 0, 0.32378, 0, 0, 0, 0.0954745, -2.56077, 2.38811, 4.52408)
+mesh = ExtResource("6_a6cn3")
+skeleton = NodePath("")
+
+[node name="Cube_041" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(3.9331, 0, 0, 0, 2.73246, 0, 0, 0, 2.94617, -6.09272, 1.09399, 4.39817)
+mesh = ExtResource("7_i8wbg")
+skeleton = NodePath("")
+
+[node name="cerca_006" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(7.99959, 0, -0.155196, 0, 8.00109, 0, 0.155196, 0, 7.99959, 10.7124, 1.47628, 4.63468)
+mesh = ExtResource("8_jdp04")
+skeleton = NodePath("")
+
+[node name="cerca_007" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51319e-05, -8.36122, -1.29934e-06, 0.144622, 5.43405, 1.47628, -11.3912)
+mesh = ExtResource("9_vjba0")
+skeleton = NodePath("")
+
+[node name="cerca_008" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(7.99959, 0, -0.155196, 0, 8.00109, 0, 0.155196, 0, 7.99959, 10.7124, 1.47628, -6.25974)
+mesh = ExtResource("10_m3opo")
+skeleton = NodePath("")
+
+[node name="Cube_033" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(3.9331, 0, 0, 0, 2.73246, 0, 0, 0, 2.94617, -6.09232, 2.72142, 7.57223)
+mesh = ExtResource("11_ta6i1")
+skeleton = NodePath("")
+
+[node name="Cylinder_042" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.403189, 0, 0, 0, 0.0460618, 0, 0, 0, 0.403189, 7.87636, 2.03845, 1.29072)
+mesh = ExtResource("12_lnnb8")
+skeleton = NodePath("")
+
+[node name="Cube_045" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-2.37663, -3.21161e-07, 0, 3.5886e-07, -2.12696, 0, 0, 0, 2.42439, -4.0243, 2.59089, 7.57207)
+mesh = ExtResource("13_dfchv")
+skeleton = NodePath("")
+
+[node name="Cube_039" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(1.11331, 0, 0, 0, 1.03379, 0, 0, 0, 1.28866, 8.00592, 1.51866, 2.83744)
+mesh = ExtResource("14_i25ke")
+skeleton = NodePath("")
+
+[node name="Cube_049" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.106432, 0, 0, 0, 0.432597, 0, 0, 0, 0.106432, 8.001, 1.61065, 1.28661)
+mesh = ExtResource("15_80yru")
+skeleton = NodePath("")
+
+[node name="Circle" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(1.49032, 0, 0, 0, 1.49032, 0, 0, 0, 1.49032, 8.80396, 2.05761, 0.859757)
+mesh = ExtResource("16_pax5o")
+skeleton = NodePath("")
+
+[node name="Circle_002" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(4.71854e-08, 0.79164, 1.99283e-07, -0.552263, -1.09863e-07, 0.567185, 0.567185, -1.72831e-07, 0.552263, -3.01397, 2.04749, 0.757733)
+mesh = ExtResource("17_8fiww")
+skeleton = NodePath("")
+
+[node name="Cylinder_024" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.67995, 0, 0.619035, 0, 0.919531, 0, -0.619035, 0, -0.67995, 6.09716, 1.38657, 4.25495)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Cylinder_026" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.904824, 0, 0, 0, 0.904824, 0, 0, 0, 0.904824, 5.8414, 1.38521, 1.2422)
+mesh = ExtResource("19_55npm")
+skeleton = NodePath("")
+
+[node name="Cube_048" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(4.82019e-07, 0, 1.16749, 0, 1.22542, 0, -1.34782, 0, 4.17527e-07, -8.08972, 1.97092, -8.34105)
+mesh = ExtResource("20_wiifd")
+skeleton = NodePath("")
+
+[node name="Cube_050" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(5.22214e-07, 0, 1.06754, 0, 1.3276, 0, -1.46022, 0, 3.81782e-07, -8.80405, 3.9187, -8.31369)
+mesh = ExtResource("21_kcctv")
+skeleton = NodePath("")
+
+[node name="Cube_020" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.983995, -0.801075)
+mesh = ExtResource("22_k0fg6")
+skeleton = NodePath("")
+
+[node name="Cube_022" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(3.57628e-07, 0, 1, 0, 0.663601, 0, -1, 0, 3.57628e-07, 1.29643, 1.0614, 0.453169)
+mesh = ExtResource("23_8uepi")
+skeleton = NodePath("")
+
+[node name="Cylinder_029" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0, 0.164179, 0, 0, 0, -0.145551, -0.174884, 0, 0, -6.1263, 6.0132, 2.73089)
+mesh = ExtResource("24_4erkd")
+skeleton = NodePath("")
+
+[node name="Circle_001" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(4.71854e-08, 0.79164, 1.99283e-07, -0.552263, -1.09863e-07, 0.567185, 0.567185, -1.72831e-07, 0.552263, -3.01397, 2.04749, 4.49141)
+mesh = ExtResource("25_qej6l")
+skeleton = NodePath("")
+
+[node name="Cube_029" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.0243053, 0, 0, 0, 0.0691843, 0, 0, 0, 0.0645732, -3.81979, 2.51757, 2.47443)
+mesh = ExtResource("26_nna6t")
+skeleton = NodePath("")
+
+[node name="Cylinder_038" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.811151, 0, -0.400926, 0, 0.904824, 0, 0.400926, 0, -0.811151, 7.32569, 1.38521, -0.198018)
+mesh = ExtResource("27_kp3gj")
+skeleton = NodePath("")
+
+[node name="Cylinder_039" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.628631, 0, 0.650792, 0, 0.904824, 0, -0.650792, 0, -0.628631, 8.89565, 1.38521, -0.127656)
+mesh = ExtResource("28_15s0s")
+skeleton = NodePath("")
+
+[node name="Cylinder_040" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.354234, 3.2668e-07, 0.322499, 0.322499, 1.9583e-08, 0.354234, 1.14214e-07, 0.957899, -1.17226e-07, 8.97268, 1.25901, 2.8878)
+mesh = ExtResource("29_k1dsw")
+skeleton = NodePath("")
+
+[node name="Cylinder_041" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.354234, 3.2668e-07, 0.322499, 0.322499, 1.9583e-08, 0.354234, 1.14214e-07, 0.957899, -1.17226e-07, 7.25836, 1.25901, 2.8878)
+mesh = ExtResource("30_oslni")
+skeleton = NodePath("")
+
+[node name="Cylinder_025" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.771389, 0, 0.500495, 0, 0.919531, 0, -0.500495, 0, 0.771389, 9.07033, 1.38657, 5.34636)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Cylinder_044" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.878765, 0, 0.270755, 0, 0.919531, 0, -0.270755, 0, 0.878765, 7.98929, 1.38657, 8.18175)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Cylinder_045" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.917518, 0, -0.0608007, 0, 0.919531, 0, 0.0608007, 0, 0.917518, 6.11313, 1.38657, 8.16728)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Cylinder_046" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.67995, 0, 0.619035, 0, 0.919531, 0, -0.619035, 0, -0.67995, 8.00485, 1.38657, 4.25495)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Cylinder_047" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.446217, 0, -0.804007, 0, 0.919531, 0, 0.804007, 0, 0.446217, 5.03634, 1.38657, 5.35958)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Cylinder_048" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.464722, 0, -0.793455, 0, 0.919531, 0, 0.793455, 0, -0.464722, 5.02047, 1.38657, 7.06946)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Cylinder_049" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.771389, 0, 0.500495, 0, 0.919531, 0, -0.500495, 0, 0.771389, 9.07033, 1.38657, 7.08439)
+mesh = ExtResource("18_tra64")
+skeleton = NodePath("")
+
+[node name="Plane_006" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(1.03838e-08, 0.171447, -0.0309109, -0.174211, 1.0219e-08, -1.84243e-09, 0, 0.0309109, 0.171447, 7.71431, 2.24187, 1.25941)
+mesh = ExtResource("32_aeqj0")
+skeleton = NodePath("")
+
+[node name="Plane_007" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.0537117, -7.81096e-10, 0.165724, 7.81096e-10, -0.174211, -5.6794e-10, 0.165724, 5.6794e-10, 0.0537117, 8.123, 2.06277, 1.24241)
+mesh = ExtResource("33_pyti4")
+skeleton = NodePath("")
+
+[node name="Circle_003" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(1.49032, 0, 0, 0, 1.49032, 0, 0, 0, 1.49032, 6.75713, 2.05761, 1.24926)
+mesh = ExtResource("34_v16rt")
+skeleton = NodePath("")
+
+[node name="Cylinder_050" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(-0.199303, 0.00649456, 0.179957, 0.179936, -0.017899, 0.1993, 0.00298975, 1.51017, 0.00158824, 6.86177, 1.15104, 6.40952)
+mesh = ExtResource("36_draap")
+skeleton = NodePath("")
+
+[node name="cerca_009" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51318e-05, -8.36122, -1.29934e-06, 0.144622, 1.05159, 1.47624, -11.3912)
+mesh = ExtResource("41_ebacf")
+skeleton = NodePath("")
+
+[node name="cerca_010" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51318e-05, -8.36122, -1.29934e-06, 0.144622, -1.05644, 1.47624, 9.81633)
+mesh = ExtResource("42_yvhj2")
+skeleton = NodePath("")
+
+[node name="cerca_005" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51319e-05, -8.36122, -1.29934e-06, 0.144622, 5.02184, 1.47628, 9.79309)
+mesh = ExtResource("44_bg5dp")
+skeleton = NodePath("")
+
+[node name="cerca_011" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.144622, -7.51206e-05, 8.36122, 7.60563e-12, 8.36247, 7.51319e-05, -8.36122, -1.29934e-06, 0.144622, -7.24163, 1.47628, 9.8317)
+mesh = ExtResource("45_dnxya")
+skeleton = NodePath("")
+
+[node name="Plane_003" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.64742, 1.17287, -8.97195)
+mesh = ExtResource("55_61laa")
+skeleton = NodePath("")
+
+[node name="Plane_004" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.64742, 1.17287, -3.5469)
+mesh = ExtResource("58_7jiu2")
+skeleton = NodePath("")
+
+[node name="Plane_005" type="Node3D" parent="farm"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.27708, 12.0197, -3.56684)
+
+[node name="Plane_011" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, -6.36776, 3.52766, 29.2711)
+material_override = SubResource("ShaderMaterial_xqavh")
+mesh = ExtResource("66_estrj")
+skeleton = NodePath("")
+
+[node name="Plane_012" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, -6.36625, 3.52766, 23.7352)
+material_override = SubResource("ShaderMaterial_dmg7c")
+mesh = ExtResource("67_fcpsr")
+skeleton = NodePath("")
+
+[node name="Plane_013" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, 5.41063, 3.52766, 15.0773)
+material_override = SubResource("ShaderMaterial_sqsmb")
+mesh = ExtResource("68_psktw")
+skeleton = NodePath("")
+
+[node name="Plane_014" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, 5.41124, 3.52766, 26.7901)
+material_override = SubResource("ShaderMaterial_oumd1")
+mesh = ExtResource("69_r1yqx")
+skeleton = NodePath("")
+
+[node name="Plane_015" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, 6.64878, 3.52766, -3.53679)
+material_override = SubResource("ShaderMaterial_gogrp")
+mesh = ExtResource("70_ravv6")
+skeleton = NodePath("")
+
+[node name="Plane_016" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, 6.65427, 3.52766, -8.96184)
+material_override = SubResource("ShaderMaterial_c0q4h")
+mesh = ExtResource("71_mxrh2")
+skeleton = NodePath("")
+
+[node name="Plane_017" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, -5.52882, 3.52766, -29.0169)
+material_override = SubResource("ShaderMaterial_0qtf4")
+mesh = ExtResource("72_syy7j")
+skeleton = NodePath("")
+
+[node name="Plane_018" type="MeshInstance3D" parent="farm"]
+transform = Transform3D(0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 0, 0, 1, -5.39855, 3.52766, -16.4157)
+material_override = SubResource("ShaderMaterial_qvmsn")
+mesh = ExtResource("73_3s2w6")
+skeleton = NodePath("")
+
+[node name="farm_2" type="Node3D" parent="."]
+transform = Transform3D(0.001, -2.98023e-11, 4.23518e-25, 2.98023e-11, 0.001, -1.42109e-17, -1.00974e-31, 1.42109e-17, 0.001, 22.671, -30, 0)
+visible = false
+
+[node name="Cube_001" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(-4.37114e-08, 2.98023e-08, -1, 1.3027e-15, 1, 2.98023e-08, 1, -1.42109e-14, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("37_ereku")
+skeleton = NodePath("")
+
+[node name="cerca_004" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(-0.155196, 2.38451e-07, -7.99959, 4.62521e-09, 8.00109, 2.38406e-07, 7.99959, -1.13702e-13, -0.155196, -0.8673, 0.492285, 10.7217)
+mesh = ExtResource("43_s3nje")
+skeleton = NodePath("")
+
+[node name="cerca_014" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(-0.155196, 2.38451e-07, -7.99959, 4.62521e-09, 8.00109, 2.38406e-07, 7.99959, -1.13702e-13, -0.155196, -0.8673, 0.492285, -10.6401)
+mesh = ExtResource("46_vmffj")
+skeleton = NodePath("")
+
+[node name="cerca_015" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(8.36122, 1.54856e-06, -0.144622, -2.49176e-07, 8.36247, 7.51362e-05, 0.144622, -7.51206e-05, 8.36122, 10.6031, 0.492245, 1.21707)
+mesh = ExtResource("47_1q6gv")
+skeleton = NodePath("")
+
+[node name="Plane" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(-1.98715e-07, 1.23898e-07, -4.15732, 5.92216e-15, 4.15732, 1.23898e-07, 4.54606, -5.90791e-14, -1.81722e-07, -6.165, 0.200425, -5.37727)
+mesh = ExtResource("48_706q1")
+skeleton = NodePath("")
+
+[node name="Cube_005" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(-5.89151e-08, 3.65204e-08, -1.16749, 1.75581e-15, 1.22542, 3.47939e-08, 1.34782, -1.74143e-14, -5.10326e-08, 7.7833, 0.986925, 7.59822)
+mesh = ExtResource("49_y6yty")
+skeleton = NodePath("")
+
+[node name="Cube_006" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(-6.38282e-08, 3.95656e-08, -1.06754, 1.90223e-15, 1.3276, 3.18152e-08, 1.46022, -1.88663e-14, -4.66637e-08, 8.4976, 2.93471, 7.57085)
+mesh = ExtResource("50_jo0na")
+skeleton = NodePath("")
+
+[node name="portao_002" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(-0.105467, 2.48173e-07, -8.32664, 3.14317e-09, 8.3273, 2.48153e-07, 8.32664, -1.18338e-13, -0.105467, -0.239, 0.494285, 2.44342)
+mesh = ExtResource("51_eitas")
+skeleton = NodePath("")
+
+[node name="Plane_001" type="MeshInstance3D" parent="farm_2"]
+transform = Transform3D(8.85151e-07, 1.23898e-07, 4.15732, -2.63795e-14, 4.15732, -1.23898e-07, -4.54606, -5.90791e-14, 8.0946e-07, 5.8509, 0.200425, -5.37727)
+mesh = ExtResource("56_ntnm6")
+skeleton = NodePath("")
+
+[node name="Farm2PlotNotificationAudioPlayer" type="AudioStreamPlayer3D" parent="farm_2"]
+stream = ExtResource("60_siuie")
+volume_db = 7.0
+unit_size = 18.0
+max_db = 6.0
+bus = &"SFX"
+
+[node name="farm_3" type="Node3D" parent="."]
+transform = Transform3D(0.001, 0, 0, 0, 0.001, 0, 0, 0, 0.001, -21.053, -30, 0)
+visible = false
+
+[node name="Cube_003" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+mesh = ExtResource("39_aco3f")
+skeleton = NodePath("")
+
+[node name="cerca_001" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-0.155196, 0, -7.99959, 0, 8.00109, 0, 7.99959, 0, -0.155196, -0.779001, 0.492285, 10.7217)
+mesh = ExtResource("52_xeyil")
+skeleton = NodePath("")
+
+[node name="cerca_002" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-0.155196, 0, -7.99959, 0, 8.00109, 0, 7.99959, 0, -0.155196, -0.779001, 0.492285, -10.6401)
+mesh = ExtResource("53_am3ag")
+skeleton = NodePath("")
+
+[node name="cerca_016" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(8.36122, 1.29934e-06, -0.144622, 7.60563e-12, 8.36247, 7.51319e-05, 0.144622, -7.51206e-05, 8.36122, -10.5443, 0.492245, 1.21707)
+mesh = ExtResource("54_512va")
+skeleton = NodePath("")
+
+[node name="Plane_002" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-1.98715e-07, 0, -4.15732, 0, 4.15732, 0, 4.54606, 0, -1.81722e-07, -5.6906, 0.200425, 5.46098)
+mesh = ExtResource("57_xfp0y")
+skeleton = NodePath("")
+
+[node name="Plane_008" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8.2082, 0.188875, -6.36912)
+mesh = ExtResource("59_vgsxc")
+skeleton = NodePath("")
+
+[node name="Plane_009" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2.6723, 0.188875, -6.36912)
+mesh = ExtResource("60_gmm1a")
+skeleton = NodePath("")
+
+[node name="portao_003" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-0.224907, 0, -8.32427, 0, 8.3273, 0, 8.32427, 0, -0.224907, 5.9384, 0.494285, -2.7306)
+mesh = ExtResource("61_wd48b")
+skeleton = NodePath("")
+
+[node name="cerca_017" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(8.36122, 1.29934e-06, -0.144622, 7.60563e-12, 8.36247, 7.51319e-05, 0.144622, -7.51206e-05, 8.36122, 1.2825, 0.492285, -6.67089)
+mesh = ExtResource("62_agcd1")
+skeleton = NodePath("")
+
+[node name="Cube_007" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(1.34782, 0, -4.6856e-07, 0, 1.22542, 0, 5.40934e-07, 0, 1.16749, 3.6032, 0.986925, -7.76375)
+mesh = ExtResource("63_rp0h8")
+skeleton = NodePath("")
+
+[node name="Cube_008" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(1.46022, 0, -4.28446e-07, 0, 1.3276, 0, 5.86042e-07, 0, 1.06754, 3.5759, 2.93471, -8.47808)
+mesh = ExtResource("64_q6lsg")
+skeleton = NodePath("")
+
+[node name="Plane_010" type="MeshInstance3D" parent="farm_3"]
+transform = Transform3D(-1.98715e-07, 0, -4.15732, 0, 4.15732, 0, 4.54606, 0, -1.81722e-07, 6.0222, 0.200425, 5.46098)
+mesh = ExtResource("65_5bn2i")
+skeleton = NodePath("")
+
+[node name="Farm3PlotNotificationAudioPlayer" type="AudioStreamPlayer3D" parent="farm_3"]
+stream = ExtResource("60_siuie")
+volume_db = 7.0
+unit_size = 18.0
+max_db = 6.0
+bus = &"SFX"
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_hpjn6")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(-0.73246, 0.407897, -0.545089, 0.0696563, 0.841346, 0.535989, 0.677237, 0.354622, -0.644665, 0, 14.3954, 0)
+light_color = Color(1, 0.635294, 0.368627, 1)
+light_bake_mode = 0
+shadow_enabled = true
+shadow_normal_bias = 3.0
+shadow_opacity = 0.95
+directional_shadow_mode = 1
+directional_shadow_split_1 = 0.2
+directional_shadow_fade_start = 0.0
+directional_shadow_max_distance = 200.0
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.575762, 0)
+collision_layer = 512
+collision_mask = 512
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.805847, 0, 0)
+shape = SubResource("BoxShape3D_ic4y4")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(0.399069, -0.916921, 0, 0.916921, 0.399069, 0, 0, 0, 1, -1.6143, 2.81092, -6.12859)
+shape = SubResource("BoxShape3D_nfkjn")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(0.398749, 0.91706, 0, -0.91706, 0.398749, 0, 0, 0, 1, -3.68049, 2.81092, -6.12859)
+shape = SubResource("BoxShape3D_nfkjn")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.71951, 2.14077, -6.12859)
+shape = SubResource("BoxShape3D_nfkjn")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.37531, 0.772632, -0.373449)
+shape = SubResource("BoxShape3D_ga2yo")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.846409, 0.772632, 10.7001)
+shape = SubResource("BoxShape3D_fa2ed")
+
+[node name="CollisionShape3D7" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.846409, 0.772632, -10.6619)
+shape = SubResource("BoxShape3D_fa2ed")
+
+[node name="CollisionShape3D8" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -31.5943, 0.773, 0)
+shape = SubResource("BoxShape3D_atwob")
+
+[node name="CollisionShape3D9" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 33.2709, 0.773, 0)
+shape = SubResource("BoxShape3D_atwob")
+
+[node name="CollisionShape3D10" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 22.5132, 0.773, 2.47441)
+shape = SubResource("BoxShape3D_atwob")
+
+[node name="CollisionShape3D11" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 11.3938, 0.773, 6.54993)
+shape = SubResource("BoxShape3D_3p1kq")
+
+[node name="CollisionShape3D12" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, 11.3938, 0.773, -5.5609)
+shape = SubResource("BoxShape3D_6vsor")
+
+[node name="CollisionShape3D13" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -9.8178, 0.773, 5.51337)
+shape = SubResource("BoxShape3D_6vsor")
+
+[node name="CollisionShape3D14" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -19.7648, 0.773, -6.64963)
+shape = SubResource("BoxShape3D_s1ab7")
+
+[node name="CollisionShape3D15" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -15.0291, 0.773, -2.74236)
+shape = SubResource("BoxShape3D_dubpu")
+
+[node name="CollisionShape3D16" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4468, 1.61487, -8.36096)
+shape = SubResource("BoxShape3D_itk5m")
+
+[node name="CollisionShape3D17" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, -0.258819, 0, 0.258819, 0.965926, -17.4468, 2.85968, -8.31771)
+shape = SubResource("BoxShape3D_44tfi")
+
+[node name="CollisionShape3D18" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.3187, 1.61487, -8.94203)
+shape = SubResource("BoxShape3D_itk5m")
+
+[node name="CollisionShape3D19" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, -0.258819, 0, 0.258819, 0.965926, 8.3187, 2.85968, -8.89878)
+shape = SubResource("BoxShape3D_44tfi")
+
+[node name="CollisionShape3D20" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 31.3476, 1.61487, 7.58742)
+shape = SubResource("BoxShape3D_itk5m")
+
+[node name="CollisionShape3D21" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-4.37114e-08, -0.258819, -0.965926, 0, 0.965926, -0.258819, 1, -1.13133e-08, -4.2222e-08, 31.3044, 2.85968, 7.58742)
+shape = SubResource("BoxShape3D_44tfi")
+
+[node name="CollisionShape3D22" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.30954, 0.925563, 7.94936)
+shape = SubResource("BoxShape3D_bq3fi")
+
+[node name="CollisionShape3D23" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.83836, 0.709422, 8.09526)
+shape = SubResource("BoxShape3D_wq4o0")
+
+[node name="CollisionShape3D24" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.174421, 0.709422, 8.09526)
+shape = SubResource("BoxShape3D_wq4o0")
+
+[node name="CollisionShape3D25" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25545, 0.766346, 5.84334)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D26" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.25842, 0.766346, 6.09064)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D27" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.28614, 0.766346, 7.98977)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D28" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.38126, 0.766346, 9.07103)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D29" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.07246, 0.766346, 9.07103)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D30" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.19531, 0.766346, 7.97591)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D31" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.19531, 0.766346, 6.11837)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D32" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.07246, 0.766346, 5.05097)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D33" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3674, 0.766346, 5.02324)
+shape = SubResource("SphereShape3D_sd26n")
+
+[node name="CollisionShape3D34" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.26845, 0.766346, 6.93624)
+shape = SubResource("BoxShape3D_dgux6")
+
+[node name="JumpPoints" type="Node3D" parent="."]
+unique_name_in_owner = true
+
+[node name="Marker3D" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.57008, 1.04895, 1.87429)
+
+[node name="Marker3D2" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.33689, 1.04895, 6.64927)
+
+[node name="Marker3D3" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.88057, 1.04895, 1.87429)
+
+[node name="Marker3D4" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.4142, 1.04895, 0.784229)
+
+[node name="Marker3D7" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.1181, 1.04895, 0.784229)
+
+[node name="Marker3D5" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.5361, 1.04895, -8.38968)
+
+[node name="Marker3D6" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.5361, 1.04895, -3.79321)
+
+[node name="Marker3D8" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.8202, 1.04895, 0.784229)
+
+[node name="Marker3D17" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.4922, 1.04895, 0.784229)
+
+[node name="Marker3D9" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.5242, 1.04895, 0.784229)
+
+[node name="Marker3D10" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.2143, 1.04895, -0.97483)
+
+[node name="Marker3D11" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.6377, 1.04895, -0.97483)
+
+[node name="Marker3D12" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.5195, 1.04895, -6.51399)
+
+[node name="Marker3D13" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.7932, 1.04895, 2.95498)
+
+[node name="Marker3D14" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.7932, 1.04895, 7.37134)
+
+[node name="Marker3D15" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.7839, 1.04895, -0.825122)
+
+[node name="Marker3D16" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.5371, 1.04895, -0.825122)
+
+[node name="Marker3D18" type="Marker3D" parent="JumpPoints"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.8836, 1.04895, -6.40264)
+
+[node name="FarmArea" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5469, 1.11104, 6.64742)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+enabled = true
+plot_id = "initial_0"
+grid_size = Vector2(3.055, 6.894)
+grid_columns = 6
+grid_rows = 8
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+harvest_time = 4.0
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea"]
+shape = SubResource("BoxShape3D_yr3wg")
+
+[node name="FarmArea2" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.97195, 1.11087, 6.64742)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+enabled = true
+plot_id = "initial_1"
+crop_type = 1
+grid_size = Vector2(3.055, 6.894)
+grid_columns = 6
+grid_rows = 8
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+harvest_time = 4.0
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea2"]
+shape = SubResource("BoxShape3D_yr3wg")
+
+[node name="FarmArea3" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 3.55271e-15, 0, 1, 16.506, 1.10959, -5.37727)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+plot_id = "expansion_right_0"
+crop_type = 1
+grid_size = Vector2(7.985, 8.754)
+grid_columns = 16
+grid_rows = 16
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+plant_time = 10.0
+harvest_time = 8.0
+harvest_points = 2
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea3"]
+shape = SubResource("BoxShape3D_teiid")
+
+[node name="FarmArea4" type="Area3D" parent="."]
+transform = Transform3D(1, 0, -1.42109e-14, 0, 1, 0, 2.84217e-14, 0, 1, 28.5219, 1.10959, -5.37727)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+plot_id = "expansion_right_1"
+grid_size = Vector2(7.985, 8.754)
+grid_columns = 12
+grid_rows = 16
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+plant_time = 10.0
+harvest_time = 8.0
+harvest_points = 2
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea4"]
+shape = SubResource("BoxShape3D_teiid")
+
+[node name="FarmArea5" type="Area3D" parent="."]
+transform = Transform3D(1, 0, -1.42109e-14, 0, 1, 0, 3.19744e-14, 0, 1, -15.0306, 1.10959, 5.46098)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+plot_id = "expansion_left_0"
+crop_type = 1
+grid_size = Vector2(7.985, 8.754)
+grid_columns = 12
+grid_rows = 16
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+plant_time = 10.0
+harvest_time = 8.0
+harvest_points = 2
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea5"]
+shape = SubResource("BoxShape3D_teiid")
+
+[node name="FarmArea6" type="Area3D" parent="."]
+transform = Transform3D(1, 0, -1.77636e-14, 0, 1, 0, 3.55271e-14, 0, 1, -26.7434, 1.10959, 5.46098)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+plot_id = "expansion_left_1"
+grid_size = Vector2(7.985, 8.754)
+grid_columns = 12
+grid_rows = 16
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+plant_time = 10.0
+harvest_time = 8.0
+harvest_points = 2
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea6"]
+shape = SubResource("BoxShape3D_teiid")
+
+[node name="FarmArea7" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.7251, 1.11087, -6.36912)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+plot_id = "expansion_left_2"
+grid_size = Vector2(3.055, 6.894)
+grid_columns = 6
+grid_rows = 8
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+harvest_time = 4.0
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea7"]
+shape = SubResource("BoxShape3D_yr3wg")
+
+[node name="FarmArea8" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.261, 1.11087, -6.36912)
+collision_mask = 0
+monitoring = false
+script = ExtResource("74_2wigj")
+plot_id = "expansion_left_3"
+crop_type = 1
+grid_size = Vector2(3.055, 6.894)
+grid_columns = 6
+grid_rows = 8
+water_decay_rate = 0.005
+sun_decay_rate = 0.01
+harvest_time = 4.0
+needs_breakdown = "Growth: 0
+	Water: 100
+	Sun: 100"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FarmArea8"]
+shape = SubResource("BoxShape3D_yr3wg")
+
+[node name="FirstFarmer" parent="." node_paths=PackedStringArray("jump_points") instance=ExtResource("71_myn0f")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.21286, 1.01192, 2.69293)
+jump_points = NodePath("../JumpPoints")
+
+[node name="TutorialLabels" type="Node3D" parent="FirstFarmer"]
+
+[node name="TutorialLbl0" type="Label3D" parent="FirstFarmer/TutorialLabels"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 2.4453, 0)
+billboard = 1
+double_sided = false
+render_priority = 2
+outline_render_priority = 1
+modulate = Color(0.937255, 0.756863, 0.690196, 1)
+outline_modulate = Color(0.0431373, 0.0588235, 0.309804, 1)
+text = "If you reeeeeally want me
+to farm, put me on top
+of one of the plots next to me."
+font_size = 64
+outline_size = 16
+
+[node name="TutorialLbl1" type="Label3D" parent="FirstFarmer/TutorialLabels"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 2.4453, 0)
+visible = false
+billboard = 1
+double_sided = false
+render_priority = 2
+outline_render_priority = 1
+modulate = Color(0.937255, 0.756863, 0.690196, 1)
+outline_modulate = Color(0.0431373, 0.0588235, 0.309804, 1)
+text = "I can also collect eggs, but
+you'll have to put me inside
+of the chicken coop."
+font_size = 64
+outline_size = 16
+
+[node name="StatusViewport" type="SubViewport" parent="."]
+disable_3d = true
+transparent_bg = true
+size = Vector2i(1024, 1024)
+
+[node name="Control" parent="StatusViewport" node_paths=PackedStringArray("plots") instance=ExtResource("72_gt5p3")]
+plots = [NodePath("../../FarmArea"), NodePath("../../FarmArea2"), NodePath("../../FarmArea3"), NodePath("../../FarmArea4"), NodePath("../../FarmArea5"), NodePath("../../FarmArea6"), NodePath("../../FarmArea7"), NodePath("../../FarmArea8")]
+
+[node name="VRPlayer" parent="." instance=ExtResource("74_5bu10")]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 17)
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamPlaylist_cho5a")
+autoplay = true
+bus = &"Music"
+
+[node name="ChickenArea" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.39662, 1.06698, -3.87241)
+collision_layer = 0
+collision_mask = 1536
+monitorable = false
+script = ExtResource("78_af1i5")
+enabled = true
+area_extents = Vector2(9.25, 5.948)
+chicken_positions = Array[Vector3]([Vector3(5.865, 1.055, -5.15), Vector3(8.768, 1.055, -2.661)])
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ChickenArea"]
+shape = SubResource("BoxShape3D_xkomf")
+
+[node name="Chicken" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(0.456787, 0, -0.889576, 0, 1, 0, 0.889576, 0, 0.456787, 5.86504, 1.05524, -5.15004)
+enabled = true
+chicken_area = NodePath("../ChickenArea")
+
+[node name="Chicken2" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(-0.214224, 0, 0.976785, 0, 1, 0, -0.976785, 0, -0.214224, 8.76837, 1.05524, -2.66146)
+enabled = true
+chicken_id = 1
+chicken_area = NodePath("../ChickenArea")
+
+[node name="ChickenArea2" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.8458, 1.067, 6.711)
+collision_layer = 0
+collision_mask = 1536
+monitorable = false
+script = ExtResource("78_af1i5")
+area_extents = Vector2(16.043, 6.148)
+chicken_positions = Array[Vector3]([Vector3(14.6345, 1.055, 5.41919), Vector3(17.9046, 1.055, 8.6655), Vector3(20.4009, 1.055, 5.52217), Vector3(25.3344, 1.055, 7.97013), Vector3(28.1081, 1.055, 4.77949)])
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ChickenArea2"]
+shape = SubResource("BoxShape3D_x3cna")
+
+[node name="Chicken4" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(0.89356, 0, -0.448945, 0, 1, 0, 0.448945, 0, 0.89356, 14.6345, 1.055, 5.41919)
+visible = false
+chicken_area = NodePath("../ChickenArea2")
+
+[node name="Chicken5" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(-0.0290905, 0, 0.999577, 0, 1, 0, -0.999577, 0, -0.0290905, 17.9046, 1.055, 8.6655)
+visible = false
+chicken_id = 1
+chicken_area = NodePath("../ChickenArea2")
+
+[node name="Chicken6" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(0.119565, 0, -0.992826, 0, 1, 0, 0.992826, 0, 0.119565, 20.4009, 1.055, 5.52217)
+visible = false
+chicken_id = 2
+chicken_area = NodePath("../ChickenArea2")
+
+[node name="Chicken7" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(-0.674096, 0, -0.738644, 0, 1, 0, 0.738644, 0, -0.674096, 25.3344, 1.055, 7.97013)
+visible = false
+chicken_id = 3
+chicken_area = NodePath("../ChickenArea2")
+
+[node name="Chicken8" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(0.0357367, 0, -0.999361, 0, 1, 0, 0.999361, 0, 0.0357367, 28.1081, 1.055, 4.77949)
+visible = false
+chicken_id = 4
+chicken_area = NodePath("../ChickenArea2")
+
+[node name="ChickenArea3" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.868, 1.06698, -4.96191)
+collision_layer = 0
+collision_mask = 1536
+monitorable = false
+script = ExtResource("78_af1i5")
+area_extents = Vector2(8.446, 3.057)
+chicken_positions = Array[Vector3]([Vector3(0, 0, 0), Vector3(0, 0, 0)])
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ChickenArea3"]
+shape = SubResource("BoxShape3D_h0a45")
+
+[node name="Chicken9" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(-0.702265, 0, -0.711916, 0, 1, 0, 0.711916, 0, -0.702265, -16.9242, 1.055, -4.57691)
+visible = false
+chicken_area = NodePath("../ChickenArea3")
+
+[node name="Chicken10" parent="." node_paths=PackedStringArray("chicken_area") instance=ExtResource("73_sswnj")]
+transform = Transform3D(0.997218, 0, -0.0745436, 0, 1, 0, 0.0745436, 0, 0.997218, -12.2787, 1.055, -5.83676)
+visible = false
+chicken_id = 1
+chicken_area = NodePath("../ChickenArea3")
+
+[node name="OutsideArea3D" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 512
+monitorable = false
+script = ExtResource("79_13rlm")
+area_radius = 49.9
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="OutsideArea3D"]
+shape = SubResource("SphereShape3D_v3saj")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+"": SubResource("AnimationLibrary_rpmv1")
+}
+speed_scale = 0.5
+
+[node name="SecondFarmFarmerSpawnPos" type="Marker3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.3335, 5.92149, 0.733117)
+
+[node name="SecondFarmFarmerSpawnPos2" type="Marker3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.2445, 5.92149, 0.733117)
+
+[node name="ThirdFarmFarmerSpawnPos" type="Marker3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.1123, 5.92149, -0.646262)
+
+[node name="ThirdFarmFarmerSpawnPos2" type="Marker3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.1437, 5.92149, -0.646262)
+
+[node name="Egg" parent="." instance=ExtResource("82_51l85")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9511, 1.055, -2.71846)
+
+[node name="WrongDirectionLabel3D" type="Label3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 7, 37)
+double_sided = false
+modulate = Color(0.937255, 0.756863, 0.690196, 1)
+outline_modulate = Color(0.0431373, 0.0588235, 0.309804, 1)
+text = "If you are reading this, you probably
+should be facing the other way!"
+font_size = 200
+outline_size = 64
+
+[node name="ScoreLbale3D" type="Label3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, -11.0036)
+double_sided = false
+modulate = Color(0.937255, 0.756863, 0.690196, 1)
+outline_modulate = Color(0.0431373, 0.0588235, 0.309804, 1)
+text = "Harvest points: 0
+Next unlock: 8"
+font_size = 200
+outline_size = 64
+
+[node name="ScoreLbale3D2" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.258819, 0.965926, 0, -0.965926, 0.258819, 0, 0.764688, 11.4855)
+double_sided = false
+modulate = Color(0.937255, 0.756863, 0.690196, 1)
+outline_modulate = Color(0.0431373, 0.0588235, 0.309804, 1)
+text = "Use TRIGGER to toggle rain/sun"
+font_size = 72
+outline_size = 24

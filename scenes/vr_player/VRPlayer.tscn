@@ -1,0 +1,159 @@
+[gd_scene load_steps=11 format=3 uid="uid://kprvrh42b2qg"]
+
+[ext_resource type="Script" path="res://scenes/vr_player/vr_player.gd" id="1_3y54i"]
+[ext_resource type="Script" path="res://scripts/grab_area.gd" id="1_it3er"]
+[ext_resource type="Material" uid="uid://cu2me0s4cvfh5" path="res://scenes/materials/fade_material.tres" id="2_7yuun"]
+[ext_resource type="PackedScene" uid="uid://ckfmbukmy3v62" path="res://scenes/vr_player/hands/RHand.tscn" id="3_3rtoi"]
+[ext_resource type="PackedScene" uid="uid://cgm3kv7x4qjr" path="res://scenes/vr_player/hands/LHand.tscn" id="3_skujt"]
+[ext_resource type="AudioStream" uid="uid://bpw3qg2n3e7v5" path="res://scenes/vr_player/sfx/rain_sfx.wav" id="4_gpmb4"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_w15h1"]
+size = Vector2(2, 2)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ubaak"]
+radius = 1.1
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6qca4"]
+shading_mode = 0
+albedo_color = Color(0.58, 0.72, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_vhymf"]
+material = SubResource("StandardMaterial3D_6qca4")
+size = Vector3(1, 0.02, 0.02)
+
+[node name="VRPlayer" type="XROrigin3D"]
+script = ExtResource("1_3y54i")
+
+[node name="XRCamera3D" type="XRCamera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+
+[node name="FadeMesh" type="MeshInstance3D" parent="XRCamera3D"]
+unique_name_in_owner = true
+sorting_offset = 10.0
+material_override = ExtResource("2_7yuun")
+cast_shadow = 0
+extra_cull_margin = 16384.0
+mesh = SubResource("QuadMesh_w15h1")
+
+[node name="InitialTextTargetPos" type="Marker3D" parent="XRCamera3D"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)
+
+[node name="InitialTextLbl" type="Label3D" parent="XRCamera3D/InitialTextTargetPos"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -9)
+top_level = true
+billboard = 1
+double_sided = false
+no_depth_test = true
+render_priority = 12
+outline_render_priority = 11
+modulate = Color(0.937255, 0.756863, 0.690196, 1)
+outline_modulate = Color(0.0431373, 0.0588235, 0.309804, 1)
+text = "PRESS TRIGGER TO START"
+font_size = 72
+outline_size = 20
+
+[node name="LeftController" type="XRController3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1, 0)
+tracker = &"left_hand"
+show_when_tracked = true
+
+[node name="GrabArea" type="Area3D" parent="LeftController" node_paths=PackedStringArray("xr_camera", "remote_transform")]
+collision_layer = 0
+collision_mask = 4
+monitorable = false
+script = ExtResource("1_it3er")
+xr_camera = NodePath("../../XRCamera3D")
+remote_transform = NodePath("L_RemoteTransform3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LeftController/GrabArea"]
+shape = SubResource("SphereShape3D_ubaak")
+
+[node name="L_RemoteTransform3D" type="RemoteTransform3D" parent="LeftController/GrabArea"]
+update_scale = false
+
+[node name="RainParticles" type="CPUParticles3D" parent="LeftController"]
+unique_name_in_owner = true
+transform = Transform3D(0.999876, -0.0157596, 0, 0.0157596, 0.999876, 0, 0, 0, 1, 0.58538, 0, 0)
+visible = false
+cast_shadow = 0
+emitting = false
+amount = 16
+speed_scale = 1.5
+fixed_fps = 30
+visibility_aabb = AABB(-4, -4, -4, 8, 8, 8)
+local_coords = true
+mesh = SubResource("BoxMesh_vhymf")
+emission_shape = 3
+emission_box_extents = Vector3(0, 0.6, 0.6)
+direction = Vector3(-1, 0, 0)
+spread = 0.0
+gravity = Vector3(25, 0, 0)
+linear_accel_min = 10.0
+linear_accel_max = 25.0
+
+[node name="RainRayCast" type="RayCast3D" parent="LeftController"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1, 0, 0)
+enabled = false
+target_position = Vector3(12, 0, 0)
+hit_from_inside = true
+hit_back_faces = false
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="LHand" parent="LeftController" instance=ExtResource("3_skujt")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0.0308134)
+
+[node name="RainAudioStream" type="AudioStreamPlayer3D" parent="LeftController"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
+stream = ExtResource("4_gpmb4")
+volume_db = -4.0
+bus = &"SFX"
+
+[node name="RightController" type="XRController3D" parent="."]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.00188, 1, -0.0225072)
+tracker = &"right_hand"
+pose = &"aim"
+show_when_tracked = true
+
+[node name="GrabArea" type="Area3D" parent="RightController" node_paths=PackedStringArray("xr_camera", "remote_transform")]
+collision_layer = 0
+collision_mask = 4
+monitorable = false
+script = ExtResource("1_it3er")
+xr_camera = NodePath("../../XRCamera3D")
+remote_transform = NodePath("R_RemoteTransform3D")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RightController/GrabArea"]
+shape = SubResource("SphereShape3D_ubaak")
+
+[node name="R_RemoteTransform3D" type="RemoteTransform3D" parent="RightController/GrabArea"]
+update_scale = false
+
+[node name="SunSpotLight" type="SpotLight3D" parent="RightController"]
+unique_name_in_owner = true
+transform = Transform3D(-4.37114e-08, -4.37114e-08, 1, -1, 1.91069e-15, -4.37114e-08, 0, -1, -4.37114e-08, -0.1, 0, 0)
+visible = false
+light_color = Color(1, 1, 0, 1)
+light_energy = 10.0
+light_bake_mode = 0
+spot_range = 12.0
+spot_angle = 12.2929
+
+[node name="SunRayCast" type="RayCast3D" parent="RightController"]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 0, 0)
+enabled = false
+target_position = Vector3(-12, 0, 0)
+hit_from_inside = true
+hit_back_faces = false
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="RHand" parent="RightController" instance=ExtResource("3_3rtoi")]
+transform = Transform3D(-0.962609, -0.0701296, 0.261659, -0.0703899, 0.997484, 0.00838974, -0.261589, -0.0103421, -0.965124, -0.0018754, 0, 0.0750239)

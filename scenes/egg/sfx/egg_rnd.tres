@@ -1,0 +1,11 @@
+[gd_resource type="AudioStreamRandomizer" load_steps=4 format=3 uid="uid://ry1ajivif0c7"]
+
+[ext_resource type="AudioStream" uid="uid://cul7ghddg2xdp" path="res://scenes/egg/sfx/egg_sfx_0.wav" id="1_3kvk8"]
+[ext_resource type="AudioStream" uid="uid://dundio4u355ht" path="res://scenes/egg/sfx/egg_sfx_1.wav" id="2_riqf0"]
+[ext_resource type="AudioStream" uid="uid://cywbapyeo0xud" path="res://scenes/egg/sfx/egg_sfx_2.wav" id="3_7ol4m"]
+
+[resource]
+streams_count = 3
+stream_0/stream = ExtResource("1_3kvk8")
+stream_1/stream = ExtResource("2_riqf0")
+stream_2/stream = ExtResource("3_7ol4m")

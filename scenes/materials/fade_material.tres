@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cu2me0s4cvfh5"]
+
+[ext_resource type="Shader" path="res://scenes/materials/fade_shader.gdshader" id="1_oiu7n"]
+
+[resource]
+render_priority = 10
+shader = ExtResource("1_oiu7n")
+shader_parameter/color = Color(0.780392, 0.921569, 0.94902, 1)
