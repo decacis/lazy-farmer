@@ -4,7 +4,7 @@ Lazy Farmer is a game made for the [Godot XR Game Jam July 2024](https://itch.io
 
 Play on itch: [https://decacis.itch.io/lazy-farmer](https://decacis.itch.io/lazy-farmer)
 
-Made using Godot 4.3-beta2
+Made using Godot 4.3-beta3
 
 **NOTE:** due to licensing issues, I cannot include the two songs used in the game in this repository. However, you can download them from [here](https://www.zapsplat.com/music/tiny-town-warm-and-sincere-music-with-acoustic-guitar-rhythm-and-piano/) and [here](https://www.zapsplat.com/music/bluegrass-billy-a-simple-fun-and-carefree-track-with-bluegrass-banjo-melody-upright-bass-drums-and-hand-claps/) and just place the files inside `res://assets/music/`
 

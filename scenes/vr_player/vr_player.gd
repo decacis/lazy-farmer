@@ -6,6 +6,7 @@ signal faded_out
 @export var move_speed : float = 10.0
 @export var replenish_rate : float = 5.0
 
+@onready var xr_camera_3d : XRCamera3D = %XRCamera3D
 @onready var left_controller : XRController3D = %LeftController
 @onready var right_controller : XRController3D = %RightController
 
@@ -128,19 +129,25 @@ func _process(delta : float) -> void:
 
 func _btn_pressed(btn_name : String, controller_id : int) -> void:
 	if not waiting_to_fade:
-		if controller_id == 0:
-			if btn_name == "trigger_click":
-				_enable_rain()
-		
+		if btn_name == "ax_button":
+			_change_height(true)
+		elif btn_name == "by_button":
+			_change_height(false)
 		else:
-			if btn_name == "trigger_click":
-				_enable_sun()
+			if controller_id == 0:
+				if btn_name == "trigger_click":
+					_enable_rain()
+			
+			else:
+				if btn_name == "trigger_click":
+					_enable_sun()
 	
 	else:
 		if btn_name == "trigger_click":
 			_handle_recenter()
 			await get_tree().process_frame
 			
+			_restrict_height()
 			_fade()
 			initial_text_target_pos.visible = false
 			await faded_in
@@ -190,6 +197,17 @@ func _handle_recenter() -> void:
 	XRServer.center_on_hmd(XRServer.RESET_BUT_KEEP_TILT, true)
 
 
+func _restrict_height() -> void:
+	var current_height : float = xr_camera_3d.global_position.y
+	var height_diff : float
+	if current_height > 10.0:
+		height_diff = 10.0 - current_height
+	elif current_height < 9.0:
+		height_diff = current_height - 9.0
+	
+	global_position.y += height_diff
+
+
 func _fade(out : bool = false) -> void:
 	if fade_tween:
 		fade_tween.kill()
@@ -213,3 +231,10 @@ func _fade(out : bool = false) -> void:
 		
 		await fade_tween.finished
 		faded_out.emit()
+
+
+func _change_height(up : bool) -> void:
+	if up:
+		global_position.y += 1.0
+	else:
+		global_position.y -= 1.0

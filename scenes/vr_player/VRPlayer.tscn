@@ -25,6 +25,7 @@ size = Vector3(1, 0.02, 0.02)
 script = ExtResource("1_3y54i")
 
 [node name="XRCamera3D" type="XRCamera3D" parent="."]
+unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
 
 [node name="FadeMesh" type="MeshInstance3D" parent="XRCamera3D"]

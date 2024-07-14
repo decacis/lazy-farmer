@@ -2071,10 +2071,12 @@ font_size = 200
 outline_size = 64
 
 [node name="ScoreLbale3D2" type="Label3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.258819, 0.965926, 0, -0.965926, 0.258819, 0, 0.764688, 11.4855)
+transform = Transform3D(1, 0, 0, 0, 0.258819, 0.965926, 0, -0.965926, 0.258819, 0, 0.764688, 11.9183)
 double_sided = false
 modulate = Color(0.937255, 0.756863, 0.690196, 1)
 outline_modulate = Color(0.0431373, 0.0588235, 0.309804, 1)
-text = "Use TRIGGER to toggle rain/sun"
+text = "Use TRIGGER to toggle rain/sun
+Use A/X to move upward
+Use B/Y to move downward"
 font_size = 72
 outline_size = 24
